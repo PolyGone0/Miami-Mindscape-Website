@@ -1,0 +1,75 @@
+
+.ccontent {
+    width: 350px;
+    height: 600px;
+    color: #f00;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px 560px;    
+}
+
+.ccontent h2 {
+    text-align: center;
+    font-size: 35px;
+    background: #500;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.inputs input {
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #f00;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.inputs input:focus {
+    outline: none;
+}
+
+#email {
+    margin-left: 45px;
+}
+
+#discuss {
+    width: 325px;
+    height: 200px;
+    margin-left: 10px;
+    background: transparent;
+    border: 1px solid #f00;
+    border-radius: 10px;
+    padding: 5px;
+    text-align-last: left;
+    resize: none;
+    margin-top: 10px;
+    color: #f00;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: #900;
+}
+
+#map {
+    width: 350px;
+    height: 350px;
+    color: #f00;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px 0px;
+}
