@@ -1,7 +1,7 @@
 
 .ccontent {
     width: 350px;
-    height: 600px;
+    height: auto;
     color: #f00;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
@@ -68,7 +68,7 @@
 
 #map {
     width: 350px;
-    height: 350px;
+    height: auto;
     color: #f00;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
