@@ -19,6 +19,14 @@
     padding: 5px;
 }
 
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
 .inputs input {
     width: 200px;
     height: 35px;
@@ -30,16 +38,14 @@
     color: #fff;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 10px;
+    margin: 10px auto;
+    display: block;
 }
 
 .inputs input:focus {
     outline: none;
 }
 
-#email {
-    margin-left: 45px;
-}
 
 #discuss {
     width: 325px;
@@ -86,5 +92,5 @@ input.cn {
     border-top-left-radius: 5px;
     cursor: pointer;
     transition: .3s ease;
-    margin-left: 125px;
+    margin-left: 10px auto;
 }
