@@ -75,7 +75,18 @@
 }
 
 input.cn {
-    background-color: #f00;
-    margin-left: 90px;
-    margin-top: 1.2em;
+    width: 100px;
+    height: 40px;
+    background: #f00;
+    border: 2px, solid, #f00;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+     border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+    margin-left: 125px;
 }
