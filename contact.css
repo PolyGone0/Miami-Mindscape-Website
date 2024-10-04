@@ -6,10 +6,9 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 25px;
-    margin: 50px 560px;    
+    margin: 50px auto;    
 }
 
 .ccontent h2 {
@@ -68,10 +67,9 @@
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 25px;
-    margin: 50px 0px;
+    margin: 50px auto;
 }
 
 input.cn {
