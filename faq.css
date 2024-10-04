@@ -49,3 +49,8 @@
 #link a{
     color: #fff;
 }
+
+details {
+    width: 450px;
+    text-align: center;
+}
