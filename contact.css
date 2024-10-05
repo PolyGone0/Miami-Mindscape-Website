@@ -1,6 +1,4 @@
 
-.main {
-    height: 120vh;
 }
 .ccontent {
     width: 350px;
@@ -86,7 +84,7 @@ input.cn {
     width: 100px;
     height: 40px;
     background: #f00;
-    border: 2px, solid, #f00;
+    border: 2px solid #f00;
     margin-top: 20px;
     color: #fff;
     font-size: 15px;
@@ -97,4 +95,14 @@ input.cn {
     cursor: pointer;
     transition: .3s ease;
     margin-left: 10px auto;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto
 }
