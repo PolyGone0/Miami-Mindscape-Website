@@ -62,7 +62,7 @@ body {
 }
 
 #Connor {
-    width: auto;
+    width: 300px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
@@ -83,7 +83,7 @@ body {
     font-family: sans-serif;
 }
 
-#Connor h3 {
+h3 {
     font-family: sans-serif;
     text-align: center;
     color: #800;
@@ -101,7 +101,7 @@ body {
 }
 
 #Zack {
-    width: auto;
+    width: 300px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
@@ -135,7 +135,7 @@ body {
 }
 
 #Jack {
-    width: auto;
+    width: 300px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
@@ -168,7 +168,7 @@ body {
     padding-top: 5px;
 }
 #Ava {
-    width: auto;
+    width: 300px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
@@ -202,7 +202,7 @@ body {
 }
 
 #Elijah {
-    width: auto;
+    width: 300px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
@@ -221,7 +221,7 @@ body {
 #Elijah h2 {
     text-align: center;
     font-family: sans-serif;
-    margin-bottom: 20px;
+ 
 }
 
 #Elijah p {
@@ -236,7 +236,7 @@ body {
 }
 
 #Ethan {
-    width: auto;
+    width: 300px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
