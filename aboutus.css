@@ -1,7 +1,11 @@
-.main {
+#main{
+    width: 100%;
+    background-image: url("home_bgimg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 109v;
     background-attachment: fixed;
 }
-
 .description {
     width: 1000px;
     height: auto;
