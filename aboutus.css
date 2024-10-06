@@ -3,15 +3,15 @@ body {
 }
 
 .description {
-    width: auto;
+    width: 1000px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 25px 800px 50px 155px;
+    margin: 0 auto 2em;
+
 }
 
 .description h1 {
@@ -33,15 +33,14 @@ body {
 }
 
 .intro {
-    width: auto;
+    width: 600px;
     height: auto;
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 25px 155px 50px 800px;
+    margin: 2em auto 2em
 }
 
 .intro h1 {
@@ -68,10 +67,8 @@ body {
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 230px 0px 0px 155px;
 }
 
 #Connor img {
@@ -109,10 +106,8 @@ body {
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 230px 0px 0px 600px;
 }
 
 #Zack img {
@@ -145,10 +140,8 @@ body {
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 230px 155px 0px 1045px;
 }
 
 #Jack img {
@@ -180,10 +173,8 @@ body {
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 625px 0px 0px 155px;
 }
 
 #Ava img {
@@ -216,10 +207,8 @@ body {
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 625px 0px 0px 600px;
 }
 
 #Elijah img {
@@ -252,10 +241,8 @@ body {
     color: #f00;
     font-family: Arial, Helvetica, sans-serif;
     background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
-    position: absolute;
     border-radius: 10px;
     padding: 10px;
-    margin: 625px 0px 0px 1045px;
 }
 
 #Ethan img {
@@ -280,4 +267,22 @@ body {
     padding-bottom: 5px;
     border-top: 1px solid #f00;
     padding-top: 5px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+section.ralign {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    margin: 3em auto;
+}
+
+.bio {
+    margin-left: 1em;
+    margin-right: 1em;
 }
