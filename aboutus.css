@@ -1,0 +1,283 @@
+body {
+    background: linear-gradient(to top, rgba(255,0,0,1)60%, rgba(80,0,0,1)20%, rgba(60,0,0,1)20%, rgba(40,0,0,1)20%);
+}
+
+.description {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px 800px 50px 155px;
+}
+
+.description h1 {
+    text-align: center;
+    background: #400;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: sans-serif
+}
+
+.description p {
+    color: #fff;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f00;
+}
+
+.intro {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 25px 155px 50px 800px;
+}
+
+.intro h1 {
+    text-align: center;
+    background: #400;
+    border-radius: 10px;
+    font-size: 40px;
+    font-family: sans-serif
+}
+
+.intro #intro {
+    color: #fff;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f00;
+}
+
+#Connor {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 230px 0px 0px 155px;
+}
+
+#Connor img {
+    height: 200px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#Connor h2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#Connor h3 {
+    font-family: sans-serif;
+    text-align: center;
+    color: #800;
+}
+
+#Connor p {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #f00;
+    padding-bottom: 5px;
+    border-top: 1px solid #f00;
+    padding-top: 5px;
+}
+
+#Zack {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 230px 0px 0px 600px;
+}
+
+#Zack img {
+    height: 200px;
+    width: auto;
+    padding-left: 83px;
+    padding-right: 83px;
+}
+
+#Zack h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#Zack p {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #f00;
+    padding-bottom: 5px;
+    border-top: 1px solid #f00;
+    padding-top: 5px;
+}
+
+#Jack {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 230px 155px 0px 1045px;
+}
+
+#Jack img {
+    height: 200px;
+    width: auto;
+    padding-left: 93.25px;
+    padding-right: 93.25px;
+}
+
+#Jack h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#Jack p {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #f00;
+    padding-bottom: 5px;
+    border-top: 1px solid #f00;
+    padding-top: 5px;
+}
+#Ava {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 625px 0px 0px 155px;
+}
+
+#Ava img {
+    height: 200px;
+    width: auto;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+#Ava h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#Ava p {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #f00;
+    padding-bottom: 5px;
+    border-top: 1px solid #f00;
+    padding-top: 5px;
+}
+
+#Elijah {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 625px 0px 0px 600px;
+}
+
+#Elijah img {
+    height: 200px;
+    width: auto;
+    padding-left: 81px;
+    padding-right: 81px;
+}
+
+#Elijah h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#Elijah p {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #f00;
+    padding-bottom: 5px;
+    border-top: 1px solid #f00;
+    padding-top: 5px;
+}
+
+#Ethan {
+    width: auto;
+    height: auto;
+    color: #f00;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 625px 0px 0px 1045px;
+}
+
+#Ethan img {
+    height: 200px;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#Ethan h2 {
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+#Ethan p {
+    font-family: serif;
+    font-size: 15px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 1px solid #f00;
+    padding-bottom: 5px;
+    border-top: 1px solid #f00;
+    padding-top: 5px;
+}
