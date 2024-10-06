@@ -287,6 +287,13 @@ section.ralign {
 }
 
 .bio {
+    display: flex;
+    flex-direction: column;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+.bio p {
+    overflow: scroll;
+    height: 200px;
 }
