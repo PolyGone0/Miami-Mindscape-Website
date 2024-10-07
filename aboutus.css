@@ -297,3 +297,7 @@ section.ralign {
     overflow: scroll;
     height: 125px;
 }
+
+.bio p::-webkit-scrollbar {
+    display: none;
+}
