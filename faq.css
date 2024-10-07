@@ -46,8 +46,14 @@
     border-bottom-right-radius: 5px;
 }
 
-#link a{
+a {
+    color: #f00;
+    text-decoration: none;
+}
+
+#link a {
     color: #fff;
+    text-decoration: underline;
 }
 
 details {
