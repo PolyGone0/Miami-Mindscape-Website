@@ -8,7 +8,7 @@
     background-image: url("images/bgimg.jpg");
     background-position: center;
     background-size: cover;
-    height: 300vh;
+    height: auto;
     background-attachment: fixed;
 }
 
