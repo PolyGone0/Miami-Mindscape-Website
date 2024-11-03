@@ -5,6 +5,26 @@
     <title>Miami Mindscape</title>
     <link rel="stylesheet" href="homepage.css">
     <link rel="stylesheet" href="information.css">
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <script>
+        $(document).ready(function() {
+            $('.materialboxed').click(function(event) {
+                event.preventDefault();
+                var imgSrc = $(this).attr('src');  // Changed to src for image
+                $('body').append('<div class="materialbox-overlay"><img src="' + imgSrc + '" class="materialbox-img"><span class="materialbox-close">&times;</span></div>');
+                $('.materialbox-overlay').fadeIn();
+            });
+
+            $(document).on('click', '.materialbox-close, .materialbox-overlay', function() {
+                $('.materialbox-overlay').fadeOut(function() {
+                    $(this).remove();
+                });
+            });
+        });
+    </script>
+    
 </head>
 
 <body>
@@ -59,7 +79,7 @@
     <table cellspacing="10">
         <tr>
             <td>
-                <img class="img1" src=
+                <img class="img1 materialboxed" src=
 "images/stereoscope.jpg">
             </td>
             <td>
@@ -82,7 +102,7 @@ The first depiction of VR was in 1935 when science fiction writer Stanley Weinba
             </td>
             <td>
                 <p>
-                    <img class="img1" src=
+                    <img class="img1 materialboxed" src=
 "images/Sensorama.png">
                 </p>
             </td>
@@ -120,7 +140,7 @@ The first wired gloves that were compatible with virtual reality were developed 
             </td>
             <td>
                 <p>
-                    <img class="img1" src=
+                    <img class="img1 materialboxed" src=
 "images/VPL_Products.jpg">
                 </p>
             </td>
@@ -134,7 +154,7 @@ The first wired gloves that were compatible with virtual reality were developed 
     <table cellspacing="10">
         <tr>
             <td>
-                <img class="img1" src=
+                <img class="img1 materialboxed" src=
 "images/VR%20Arcade.jpg">
             </td>
             <td>

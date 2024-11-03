@@ -1,9 +1,9 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#main{
+#main {
     width: 100%;
     background-image: url("images/bgimg.jpg");
     background-position: center;
@@ -17,7 +17,7 @@
     width: 1200px;
     height: 75px;
     margin: auto;
-    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
     border-bottom: 1px solid #f00;
 }
 
@@ -39,11 +39,11 @@
 .menu {
     width: 400px;
     float: left;
-    height:70px;
+    height: 70px;
 }
 
 ul {
-    float:left;
+    float: left;
     display: flex;
     justify-content: center;
 }
@@ -55,7 +55,7 @@ ul li {
     font-size: 18px;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,7 +64,7 @@ ul li a{
 }
 
 ul li a:hover {
-    color:#f00;
+    color: #f00;
 }
 
 .search {
@@ -173,7 +173,7 @@ ul li a:hover {
 .form {
     width: 240px;
     height: auto;
-    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
     position: absolute;
     top: -20px;
     left: 870px;
@@ -214,13 +214,14 @@ ul li a:hover {
     outline: none;
 }
 
-#info1{
+#info1 {
     font-size: 1.1em;
     width: 1000px
 }
 
-.info, .info2 {
-    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+.info,
+.info2 {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
     color: #fff;
     width: 800px;
     height: auto;
@@ -314,7 +315,7 @@ ul li a:hover {
 iframe {
     border: 2px solid #f00;
     width: auto;
-    
+
 }
 
 .img1 {
@@ -329,7 +330,7 @@ iframe {
 }
 
 section {
-    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%);
     color: #fff;
     width: 1000px;
     height: auto;
@@ -344,8 +345,7 @@ section {
 section h2 {
     text-align: center;
     background: #500;
-    width: 200px
-    border-radius: 10px;
+    width: 200px border-radius: 10px;
     padding: 5px;
     margin-bottom: 10px;
 }
@@ -365,4 +365,52 @@ section ol a {
 
 section li {
     margin-top: 1em;
+}
+
+/* Isolated Materialbox Code */
+
+.materialbox {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.materialbox img {
+    max-width: 100%;
+    height: auto;
+}
+
+.materialbox-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.materialbox-overlay img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-height: 90%;
+    max-width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    border: 2px solid #f00;
+    height: 80%;
+    width: auto;
+}
+
+.materialbox-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1001;
 }
